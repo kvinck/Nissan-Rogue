@@ -5,7 +5,6 @@
       "rax": "727",
       "cmd": { "22": "0103" },
       "freq": 0.1,
-      "dbgfilter": { "to": 2019, "from": 2026 },
       "signals": [
         {
           "id": "ALTIMA_TURN_SIGNAL_RIGHT",
