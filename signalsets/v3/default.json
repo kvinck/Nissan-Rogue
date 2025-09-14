@@ -7,13 +7,13 @@
       "freq": 0.1,
       "signals": [
         {
-          "id": "ALTIMA_TURN_SIGNAL_RIGHT",
+          "id": "ROGUE_TURN_SIGNAL_RIGHT",
           "path": "Control",
           "fmt": { "len": 1, "max": 1, "unit": "offon" },
           "name": "Right turn signal"
         },
         {
-          "id": "ALTIMA_TURN_SIGNAL_LEFT",
+          "id": "ROGUE_TURN_SIGNAL_LEFT",
           "path": "Control",
           "fmt": { "bix": 1, "len": 1, "max": 1, "unit": "offon" },
           "name": "Left turn signal"
@@ -25,10 +25,9 @@
       "rax": "735",
       "cmd": { "22": "0101" },
       "freq": 0.1,
-      "dbgfilter": { "to": 2024, "from": 2026 },
       "signals": [
         {
-          "id": "ALTIMA_YAW_RATE",
+          "id": "ROGUE_YAW_RATE",
           "path": "Control",
           "fmt": {
             "len": 16,
@@ -47,10 +46,9 @@
       "rax": "735",
       "cmd": { "22": "0107" },
       "freq": 0.1,
-      "dbgfilter": { "to": 2024, "from": 2026 },
       "signals": [
         {
-          "id": "ALTIMA_RADAR_DISTANCE",
+          "id": "ROGUE_RADAR_DISTANCE",
           "path": "Cruise control",
           "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "meters" },
           "name": "Radar distance"
@@ -62,10 +60,9 @@
       "rax": "735",
       "cmd": { "22": "0108" },
       "freq": 0.1,
-      "dbgfilter": { "to": 2024, "from": 2026 },
       "signals": [
         {
-          "id": "ALTIMA_RADAR_SPEED",
+          "id": "ROGUE_RADAR_SPEED",
           "path": "Cruise control",
           "fmt": {
             "len": 16,
